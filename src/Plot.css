@@ -1,0 +1,40 @@
+/* src/Plot.css */
+.plot-container {
+    margin-top: 30px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .control-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .control-group select {
+    padding: 8px;
+    min-width: 140px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .chart {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
